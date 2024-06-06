@@ -8,17 +8,47 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Soumyajit Behera </span>
-            from <span className="purple"> Bhubaneswar, India.</span>
+            Hi Everyone, I am <span className="purple"> Joseph Ngatia</span>{" "}
+            from
+            <span className="purple"> Nairobi, Kenya.</span>
             <br />
-            I am currently employed as a software developer at Juspay.
+            I am currently freelancing as a software developer while finishing
+            my Bachelor of Technology in Computer Systems and Electronics at Mt.
+            Kenya University.
             <br />
-            I have completed Integrated MSc (IMSc) in Maths and Computing at BIT
-            Mesra.
+            <br />
+            I have gained hands-on experience in the MERN stack and have
+            successfully built applications for small and medium-sized
+            businesses.
             <br />
             <br />
-            Apart from coding, some other activities that I love to do!
+            I'm passionate about leveraging my skills to solve real-world
+            problems and am always looking for new challenges. I'm open to
+            part-time opportunities that allow me to contribute and grow
+            alongside a dynamic team.
+            <br />
+            <br />
+            Additionally, I am the Founder and CEO of{" "}
+            <span class="purple" style={{ color: "red" }}>
+              {" "}
+              IntiMates+
+            </span>
+            , an innovative platform designed to help people move beyond
+            fleeting comforts and find lasting connections. You can learn more
+            about it{" "}
+            <a
+              href="https://x.com/jdtheefirst/status/1798216326374408584"
+              target="_blank"
+              rel="noreferrer"
+            >
+              here
+            </a>
+            .
+            <br />
+            <br />
+            Apart from coding, I enjoy engaging in other activities such as...
           </p>
+
           <ul>
             <li className="about-activity">
               <ImPointRight /> Playing Games
@@ -30,11 +60,10 @@ function AboutCard() {
               <ImPointRight /> Travelling
             </li>
           </ul>
-
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
+            "Transform ideas into impactful solutions."{" "}
           </p>
-          <footer className="blockquote-footer">Soumyajit</footer>
+          <footer className="blockquote-footer">Ngatia</footer>
         </blockquote>
       </Card.Body>
     </Card>
