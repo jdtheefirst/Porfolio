@@ -248,26 +248,32 @@ button:focus {
   background-size: cover !important;
   width: 100%;
   height: 100%;
+  z-index: 0;
+  /* Ensure particles are behind other content */
 }
 
 .home-header {
   padding-top: 80px !important;
 }
 
+.home-content {
+  position: relative;
+  /* Set to relative to allow z-index to work */
+  z-index: 1;
+  /* Ensure content is above particles */
+  padding: 9rem 0 2rem !important;
+  color: whitesmoke;
+  text-align: left;
+}
+
 .home-section {
   position: relative;
-  z-index: -1;
+  /* Ensure z-index works */
   background-image: var(--image-gradient), url(./Assets/home-bg.jpg);
   background-position: top center;
   background-repeat: no-repeat;
   padding-bottom: 30px !important;
   padding-top: 30px !important;
-}
-
-.home-content {
-  padding: 9rem 0 2rem !important;
-  color: whitesmoke;
-  text-align: left;
 }
 
 .heading {
