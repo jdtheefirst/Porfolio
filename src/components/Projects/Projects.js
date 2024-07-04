@@ -4,7 +4,7 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 
 import chatify from "../../Assets/IntiMates+.png";
-import myImg from "../../Assets/avatar.svg";
+import myImg from "../../Assets/jdtheefirst2.png";
 import bitsOfCode from "../../Assets/Worldsamma.png";
 
 function Projects() {
@@ -24,8 +24,8 @@ function Projects() {
               imgPath={chatify}
               isBlog={false}
               title="Dating Service"
-              description="An innovative platform designed to redefine the dynamics of modern relationships. Features include chatting, video and voice calls, matching algorithm, normal and premium services."
-              demoLink="https://fuckmate.boo"
+              description="An innovative platform designed to redefine the dynamics of modern relationships. Features include chatting, video and voice calls, matching algorithm, normal and premium services. (Current hosting plan may take up to 1min to load, please wait)"
+              demoLink="https://intimates.onrender.com/"
             />
           </Col>
 
