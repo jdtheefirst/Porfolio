@@ -126,6 +126,9 @@ function Home2() {
                 </a>
               </li>
             </ul>
+            <p>
+              <span className="purple"> Call | Text </span> +254113062599
+            </p>
           </Col>
         </Row>
       </Container>
