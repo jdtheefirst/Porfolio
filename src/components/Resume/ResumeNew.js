@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Container, Row } from 'react-bootstrap';
 import Button from 'react-bootstrap/Button';
 import Particle from '../Particle';
-import pdf from '../../Assets/../Assets/jd_Myron_Resume.pdf';
+import pdf from '../../Assets/../Assets/Joseph Ngatia_CV.pdf';
 import { AiOutlineDownload } from 'react-icons/ai';
 import { Document, Page, pdfjs } from 'react-pdf';
 import 'react-pdf/dist/esm/Page/AnnotationLayer.css';
@@ -10,6 +10,7 @@ import 'react-pdf/dist/esm/Page/TextLayer.css';
 
 // Set the workerSrc property to the path in node_modules
 pdfjs.GlobalWorkerOptions.workerSrc = `https://unpkg.com/pdfjs-dist@${pdfjs.version}/build/pdf.worker.mjs`;
+//twillio code: S8ZVS4F9BYTUYWM47439RPNR
 
 function ResumeNew() {
   const [width, setWidth] = useState(1200);

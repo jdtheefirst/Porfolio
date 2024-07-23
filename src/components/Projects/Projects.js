@@ -23,8 +23,8 @@ function Projects() {
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
-              title="Dating Service"
-              description="An innovative platform designed to redefine the dynamics of modern relationships. Features include chatting, video and voice calls, matching algorithm, normal and premium services. (Current hosting plan may take up to 1min to load, please wait)"
+              title="Chat App"
+              description="An innovative platform designed to redefine the dynamics of modern relationships. Features include chatting, video and voice calls, matching algorithm, normal and premium services. (Current hosting plan may take up to a minute to load, please wait)"
               demoLink="https://intimates.onrender.com/"
             />
           </Col>
@@ -34,7 +34,7 @@ function Projects() {
               imgPath={bitsOfCode}
               isBlog={false}
               title="Sports Club"
-              description="A complete MERN Stack organization's large-scale application, designed and developed to handle users locally across the globe. Features include chatting, streaming, grading, and divided roles."
+              description="World Samma Federation: A complete MERN Stack organization's large-scale application, designed and developed to handle users locally and globally. Features include chatting, streaming, grading, and different roles. "
               demoLink="https://worldsamma.org/"
             />
           </Col>
