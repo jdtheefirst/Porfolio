@@ -24,7 +24,7 @@ function Home2() {
               <br />
               My linguistic prowess extends to the classics:
               <i>
-                <b className="purple"> C++, JavaScript, and Python. </b>
+                <b className="purple"> C++, JavaScript, and Go. </b>
               </i>
               These languages are not just tools; they're the building blocks of
               digital dreams, the architects of tomorrow's innovations. ✨

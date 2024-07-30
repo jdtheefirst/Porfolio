@@ -28,7 +28,7 @@ function AboutCard() {
             alongside a dynamic team.
             <br />
             <br />
-            Additionally, I am the Founder and CEO of{" "}
+            Additionally, I am the Founder and CEO at{" "}
             <span class="purple" style={{ color: "red" }}>
               {" "}
               IntiMates+

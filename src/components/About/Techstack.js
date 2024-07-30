@@ -8,13 +8,10 @@ import {
   DiMongodb,
   DiPython,
   DiGit,
-  DiJava,
 } from "react-icons/di";
 import {
-  SiRedis,
   SiFirebase,
   SiNextdotjs,
-  SiSolidity,
   SiPostgresql,
 } from "react-icons/si";
 import { TbBrandGolang } from "react-icons/tb";
@@ -43,10 +40,6 @@ function Techstack() {
         <p style={{ fontSize: "20px", padding: 0, margin: 0 }}>86%</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiSolidity />
-        <p style={{ fontSize: "20px", padding: 0, margin: 0 }}>76%</p>
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
         <DiMongodb />
         <p style={{ fontSize: "20px", padding: 0, margin: 0 }}>86%</p>
       </Col>
@@ -63,19 +56,11 @@ function Techstack() {
         <p style={{ fontSize: "20px", padding: 0, margin: 0 }}>70%</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiRedis />
-        <p style={{ fontSize: "20px", padding: 0, margin: 0 }}>60%</p>
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
         <SiPostgresql />
         <p style={{ fontSize: "20px", padding: 0, margin: 0 }}>70%</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiPython />
-        <p style={{ fontSize: "20px", padding: 0, margin: 0 }}>80%</p>
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiJava />
         <p style={{ fontSize: "20px", padding: 0, margin: 0 }}>60%</p>
       </Col>
     </Row>
