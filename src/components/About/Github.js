@@ -12,7 +12,7 @@ function Github() {
         Days I <strong className="purple">Code</strong>
       </h1>
       <GitHubCalendar
-        username="jdtheefirst"
+        username={username}
         blockSize={15}
         blockMargin={5}
         color="#c084f5"
@@ -20,7 +20,7 @@ function Github() {
       />
       <p className="footer">
         For detailed contribution data, visit my GitHub profile:{" "}
-        <a href={githubProfileUrl} target="_blank" rel="noopener noreferrer">
+        <a className="home-about-social-links" href={githubProfileUrl} target="_blank" rel="noopener noreferrer">
           {username}
         </a>
       </p>
