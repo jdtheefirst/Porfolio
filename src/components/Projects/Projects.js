@@ -24,8 +24,8 @@ function Projects() {
               imgPath={chatify}
               isBlog={false}
               title="Chat App"
-              description="An innovative platform designed to redefine the dynamics of modern relationships. Features include chatting, video and voice calls, matching algorithm, normal and premium services. (Current hosting plan may take up to a minute to load, please wait)"
-              demoLink="https://intimates.onrender.com/"
+              description="An innovative platform designed to redefine the dynamics of modern relationships. Features include real-time chatting, push notifications, video and voice calls, matching algorithm, normal and premium services. (Current hosting plan may take up to a minute to load, please wait)"
+              demoLink="https://mern-chat-jd-gwaw.onrender.com/"
             />
           </Col>
 
@@ -34,7 +34,7 @@ function Projects() {
               imgPath={bitsOfCode}
               isBlog={false}
               title="Sports Club"
-              description="World Samma Federation: A complete MERN Stack organization's large-scale application, designed and developed to handle users locally and globally. Features include chatting, streaming, grading, and different roles. "
+              description="World Samma Federation: A complete MERN Stack organization's large-scale application, designed and developed to handle users locally and globally. Features include real-time chatting, push notifications, streaming, grading, and different roles."
               demoLink="https://worldsamma.org/"
             />
           </Col>
