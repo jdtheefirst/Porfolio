@@ -127,7 +127,10 @@ function Home2() {
               </li>
             </ul>
             <p>
-              <span className="purple"> Call | Text </span> +254113062599
+              <span className="purple"> Call | Text </span>&nbsp;+254113062599
+            </p>
+            <p>
+              <span className="purple"> Email </span>&nbsp;jngatia045@gmail.com
             </p>
           </Col>
         </Row>
