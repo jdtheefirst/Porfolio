@@ -6,13 +6,12 @@ import {
   DiReact,
   DiNodejs,
   DiMongodb,
-  DiPython,
   DiGit,
 } from "react-icons/di";
 import {
   SiFirebase,
   SiNextdotjs,
-  SiPostgresql,
+  SiTypescript,
 } from "react-icons/si";
 import { TbBrandGolang } from "react-icons/tb";
 
@@ -56,11 +55,7 @@ function Techstack() {
         <p style={{ fontSize: "20px", padding: 0, margin: 0 }}>70%</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiPostgresql />
-        <p style={{ fontSize: "20px", padding: 0, margin: 0 }}>70%</p>
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiPython />
+       <SiTypescript />
         <p style={{ fontSize: "20px", padding: 0, margin: 0 }}>60%</p>
       </Col>
     </Row>
