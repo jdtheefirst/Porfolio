@@ -12,9 +12,7 @@ function AboutCard() {
             from
             <span className="purple"> Nairobi, Kenya.</span>
             <br />
-            I am currently freelancing as a software developer while finishing
-            my Bachelor of Technology in Computer Systems and Electronics at Mt.
-            Kenya University.
+            I am currently freelancing as a software developer.
             <br />
             <br />
             I have gained hands-on experience in the MERN stack and have
@@ -31,7 +29,7 @@ function AboutCard() {
             Additionally, I am the Founder and CEO at{" "}
             <span class="purple" style={{ color: "red" }}>
               {" "}
-              IntiMates+
+              IntimatesPlus
             </span>
             , an innovative platform designed to help people move beyond
             fleeting comforts and find lasting connections. You can learn more
@@ -54,7 +52,7 @@ function AboutCard() {
               <ImPointRight /> Playing Games
             </li>
             <li className="about-activity">
-              <ImPointRight /> Electronics and Software Integration Specialist
+              <ImPointRight /> Electronics and Software Integrations
             </li>
             <li className="about-activity">
               <ImPointRight /> Travelling
