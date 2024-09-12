@@ -85,7 +85,7 @@ button:focus {
 /* Mobile adjustments for small screens */
 @media (max-width: 767px) {
   .timeline-item {
-    margin-bottom: 15px;
+    margin-bottom: 20px;
   }
 
   .timeline-circle {
