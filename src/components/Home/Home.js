@@ -4,6 +4,7 @@ import homeLogo from "../../Assets/home-main.svg";
 import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
+import DeveloperTimeline from "../Timeline";
 
 function Home() {
   return (
@@ -41,6 +42,7 @@ function Home() {
           </Row>
         </Container>
       </Container>
+      <DeveloperTimeline />
       <Home2 />
     </section>
   );

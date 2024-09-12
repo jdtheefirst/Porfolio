@@ -21,6 +21,111 @@ html {
 button:focus {
   box-shadow: none !important;
 }
+.timeline-container {
+  position: relative;
+  margin: 0 auto; /* Keep the timeline centered */
+  padding: 20px;
+}
+
+.timeline-item {
+  position: relative;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.timeline-circle {
+  width: 30px;
+  height: 30px;
+  background-color: #007bff;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 1;
+  right: 50%; /* Circle positioned at the right edge */
+}
+
+.timeline-item::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background-color: #007bff;
+  right: calc(50% + 15px); /* Line positioned near the right edge */
+}
+
+.timeline-content {
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.timeline-content h3 {
+  font-size: 1.5rem;
+  color: #007bff;
+  margin-bottom: 10px;
+}
+
+.timeline-content h4 {
+  font-size: 1.25rem;
+  margin-bottom: 10px;
+}
+
+.timeline-content p {
+  font-size: 1rem;
+  color: #6c757d;
+}
+
+.text-heading {
+  color: white;
+  padding-bottom: 20px;
+  margin-top: -100px;
+}
+
+/* Mobile adjustments for small screens */
+@media (max-width: 767px) {
+  .timeline-item {
+    margin-bottom: 15px;
+  }
+
+  .timeline-circle {
+    right: 15px; /* Position the circle at the right edge */
+    top: 50%;
+    transform: translateY(-50%);
+    margin-top: -15px; /* Adjust alignment */
+  }
+
+  .timeline-item::before {
+    right: 30px; /* Keep the line closer to the circle at the right edge */
+  }
+
+  .timeline-content {
+    margin-right: 60px; /* Adjust the content to leave space for the circle and line */
+    padding: 15px;
+    text-align: left; /* Align content to the left */
+  }
+
+  .timeline-content h3 {
+    font-size: 1.2rem;
+  }
+
+  .timeline-content h4 {
+    font-size: 1rem;
+  }
+
+  .timeline-content p {
+    font-size: 0.9rem;
+  }
+
+  .timeline-container {
+    padding: 10px;
+  }
+
+  .text-heading {
+    padding-bottom: 15px;
+    margin-top: -50px;
+  }
+}
 
 /* --------- */
 /*  Preloader */
@@ -261,7 +366,7 @@ button:focus {
   /* Set to relative to allow z-index to work */
   z-index: 1;
   /* Ensure content is above particles */
-  padding: 9rem 0 2rem !important;
+  padding: 2rem 0 2rem !important;
   color: whitesmoke;
   text-align: left;
 }
@@ -269,10 +374,9 @@ button:focus {
 .home-section {
   position: relative;
   /* Ensure z-index works */
-  background-image: var(--image-gradient), url(./Assets/home-bg.jpg);
   background-position: top center;
   background-repeat: no-repeat;
-  padding-bottom: 30px !important;
+  padding-bottom: none !important;
   padding-top: 30px !important;
 }
 
@@ -325,13 +429,13 @@ button:focus {
 
 .home-about-section {
   position: relative;
-  padding-bottom: 70px !important;
-  padding-top: 70px !important;
+  padding-bottom: none !important;
+  padding-top: none !important;
 }
 
 .home-about-description {
   color: white !important;
-  padding-top: 100px !important;
+  padding-top: none !important;
   padding-bottom: 20px !important;
   text-align: center;
 }
@@ -364,7 +468,7 @@ button:focus {
   text-align: center !important;
   font-size: 1.2em !important;
   line-height: 2em !important;
-  margin: .5rem !important;
+  margin: 0.5rem !important;
   background: rgba(255, 255, 255, 0.972) !important;
   border-radius: 50% !important;
   transition: 0.5s !important;
