@@ -148,7 +148,7 @@ function Home2() {
             </ul>
             <p>
               <span className="purple"> Call | Text </span>
-              &nbsp;+254113062599 ,&nbsp;+254789377418
+              &nbsp;+254113062599,&nbsp;+254789377418
             </p>
             <p>
               <span className="purple"> Email </span>&nbsp;jngatia045@gmail.com

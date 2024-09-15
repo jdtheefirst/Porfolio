@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import "../style.css"; // Custom CSS for further styling
 
@@ -35,9 +35,9 @@ const timelineData = [
   },
 ];
 
-const TimelineItem = ({ year, title, description, isRight }) => {
-  return (
-    <Row className="timeline-item">
+const TimelineItem = React.forwardRef(
+  ({ year, title, description, isRight }, ref) => (
+    <Row className="timeline-item" ref={ref}>
       <Col
         xs={12}
         md={5}
@@ -60,10 +60,41 @@ const TimelineItem = ({ year, title, description, isRight }) => {
         <div className="timeline-spacer"></div>
       </Col>
     </Row>
-  );
-};
+  )
+);
 
 const DeveloperTimeline = () => {
+  const timelineRefs = useRef([]); // Store refs for each timeline item
+
+  useEffect(() => {
+    const currentRefs = timelineRefs.current; // Capture current refs
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("active");
+          }
+        });
+      },
+      { threshold: 0.1 } // Adjust as needed
+    );
+
+    currentRefs.forEach((ref) => {
+      if (ref) {
+        observer.observe(ref);
+      }
+    });
+
+    return () => {
+      currentRefs.forEach((ref) => {
+        if (ref) {
+          observer.unobserve(ref);
+        }
+      });
+    };
+  }, []);
+
   return (
     <Container className="timeline-container py-5">
       <h2 className="text-heading">My Developer Journey</h2>
@@ -74,6 +105,7 @@ const DeveloperTimeline = () => {
           title={item.title}
           description={item.description}
           isRight={index % 2 === 0}
+          ref={(el) => (timelineRefs.current[index] = el)}
         />
       ))}
     </Container>

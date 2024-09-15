@@ -46,7 +46,6 @@ function Projects() {
               title="More Projects Coming Soon"
               description="Stay tuned for more exciting projects! I'm constantly working on new and innovative solutions."
               demoLink="https://github.com/jdtheefirst"
-              customClass="custom-image-style" // Custom class for styling
             />
           </Col>
         </Row>

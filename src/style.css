@@ -22,11 +22,6 @@ button:focus {
   box-shadow: none !important;
 }
 
-.custom-image-style {
-  width: auto; /* Image width */
-  height: 50%; /* Height adjusts dynamically based on the width */
-}
-
 .timeline-container {
   position: relative;
   margin: 0 auto; /* Keep the timeline centered */
@@ -37,6 +32,14 @@ button:focus {
   position: relative;
   width: 100%;
   margin-bottom: 50px;
+  opacity: 0;
+  transform: scale(0.9);
+  transition: transform 1.5s ease, opacity 1.5s ease;
+}
+
+.timeline-item.active {
+  opacity: 1;
+  transform: scale(1); /* Full size */
 }
 
 .timeline-circle {
@@ -86,6 +89,15 @@ button:focus {
   color: white;
   padding-bottom: 20px;
   margin-top: -100px;
+}
+
+.d-flexing {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+  background: #934cce5e !important;
+  padding: 7px;
+  border-radius: 100%;
 }
 
 /* Mobile adjustments for small screens */
