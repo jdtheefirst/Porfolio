@@ -6,7 +6,7 @@ function AboutCard() {
   return (
     <Card className="quote-card-view">
       <Card.Body>
-        <p style={{ textAlign: "justify" }}>
+        <p style={{ textAlign: "justify" }} className="home-about-body">
           Hi Everyone, I am <span className="purple"> Joseph Ngatia</span> from
           <span className="purple"> Nairobi, Kenya.</span>
           <br />
