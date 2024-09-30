@@ -6,6 +6,8 @@ import Particle from "../Particle";
 import chatify from "../../Assets/IntiMates+.png";
 import myImg from "../../Assets/jdtheefirst2.png";
 import bitsOfCode from "../../Assets/Worldsamma.png";
+import chat_room from "../../Assets/Chat_Room.png";
+import aora from "../../Assets/aora.png";
 
 function Projects() {
   return (
@@ -38,7 +40,24 @@ function Projects() {
               demoLink="https://worldsamma.org/"
             />
           </Col>
-
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={chat_room} // Placeholder image or a coming soon image
+              isBlog={false}
+              title="Chat Room"
+              description="Chat Room or Workspace to share resources and hangout with friends build with React.js, Material-UI, and Firebase."
+              demoLink="https://chat-room-ecru-five.vercel.app"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={aora} // Placeholder image or a coming soon image
+              isBlog={false}
+              title="Aora - Mobile App"
+              description="Built with React Native for seamless user experiences, Animatable for captivating animations, and integrated with the dependable backend systems of Appwrite, this app showcases impressive design and functionality, enabling seamless sharing of AI videos within the community."
+              demoLink="https://github.com/jdtheefirst/aora"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={myImg} // Placeholder image or a coming soon image
