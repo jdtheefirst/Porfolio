@@ -5,9 +5,9 @@ import Particle from "../Particle";
 
 import chatify from "../../Assets/IntiMates+.png";
 import myImg from "../../Assets/jdtheefirst2.png";
-import bitsOfCode from "../../Assets/Worldsamma.png";
+import bitsOfCode from "../../Assets/wsf.png";
 import chat_room from "../../Assets/Chat_Room.png";
-import aora from "../../Assets/aora.png";
+import aora from "../../Assets/readme.png";
 
 function Projects() {
   return (
@@ -54,8 +54,8 @@ function Projects() {
               imgPath={aora} // Placeholder image or a coming soon image
               isBlog={false}
               title="Aora - Mobile App"
-              description="Built with React Native for seamless user experiences, Animatable for captivating animations, and integrated with the dependable backend systems of Appwrite, this app showcases impressive design and functionality, enabling seamless sharing of AI videos within the community."
-              demoLink="https://github.com/jdtheefirst/aora"
+              description="Built with React Native for seamless user experiences, Animatable for captivating animations, and integrated with the dependable backend systems of Appwrite, this app showcases impressive design and functionality, enabling seamless sharing of videos within the community."
+              demoLink="https://github.com/jdtheefirst/aora?tab=readme-ov-file"
             />
           </Col>
           <Col md={4} className="project-card">
