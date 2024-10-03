@@ -3,11 +3,12 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 
-import chatify from "../../Assets/IntiMates+.png";
+import chatify from "../../Assets/IntimatesPlus.png";
 import myImg from "../../Assets/jdtheefirst2.png";
 import bitsOfCode from "../../Assets/wsf.png";
 import chat_room from "../../Assets/Chat_Room.png";
-import aora from "../../Assets/readme.png";
+import aora from "../../Assets/Aora.png";
+import Healthcare from "../../Assets/enroll.png";
 
 function Projects() {
   return (
@@ -28,6 +29,7 @@ function Projects() {
               title="Dating Platform"
               description="An innovative app designed and developed to redefine the dynamics of modern relationships. Features include real-time chatting, push notifications, video and voice calls, matching algorithm and subscriptions"
               demoLink="https://fuckmate.boo/"
+              ghLink="https://github.com/Admin-Apparels/IntimatesPlus"
             />
           </Col>
 
@@ -38,6 +40,7 @@ function Projects() {
               title="Sports Club"
               description="World Samma Federation: A complete full Stack organization's large-scale application, designed and developed with features like real-time chatting, push notifications, streaming, grading, and different roles."
               demoLink="https://worldsamma.org/"
+              ghLink="https://github.com/jdtheefirst/World-Samma-Fed"
             />
           </Col>
           <Col md={4} className="project-card">
@@ -47,6 +50,7 @@ function Projects() {
               title="Chat Room"
               description="Chat Room or Workspace to share resources and hangout with friends build with React.js, Material-UI, and Firebase."
               demoLink="https://chat-room-ecru-five.vercel.app"
+              ghLink="https://github.com/jdtheefirst/Porfolio"
             />
           </Col>
           <Col md={4} className="project-card">
@@ -56,6 +60,17 @@ function Projects() {
               title="Aora - Mobile App"
               description="Built with React Native for seamless user experiences, Animatable for captivating animations, and integrated with the dependable backend systems of Appwrite, this app showcases impressive design and functionality, enabling seamless sharing of videos within the community."
               demoLink="https://github.com/jdtheefirst/aora?tab=readme-ov-file"
+              ghLink="https://github.com/jdtheefirst/aora"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Healthcare} // Placeholder image or a coming soon image
+              isBlog={false}
+              title="Healthcare Management System"
+              description="A healthcare patient management application that allows patients to easily register, book, and manage their appointments with doctors, featuring administrative tools for scheduling, confirming, and canceling appointments, along with SMS notifications, all built using Next.js."
+              demoLink="https://healthcare-theta-sand.vercel.app/"
+              ghLink="https://github.com/jdtheefirst/healthcare"
             />
           </Col>
           <Col md={4} className="project-card">
@@ -64,7 +79,8 @@ function Projects() {
               isBlog={false}
               title="More Projects Coming Soon"
               description="Stay tuned for more exciting projects! I'm constantly working on new and innovative solutions."
-              demoLink="https://github.com/jdtheefirst"
+              demoLink="https://jdtheefirst.vercel.app/"
+              ghLink="https://github.com/jdtheefirst"
             />
           </Col>
         </Row>
