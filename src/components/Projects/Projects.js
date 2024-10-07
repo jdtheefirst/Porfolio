@@ -4,11 +4,11 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 
 import chatify from "../../Assets/IntimatesPlus.png";
-import myImg from "../../Assets/jdtheefirst2.png";
 import bitsOfCode from "../../Assets/wsf.png";
 import chat_room from "../../Assets/Chat_Room.png";
 import aora from "../../Assets/Aora.png";
 import Healthcare from "../../Assets/enroll.png";
+import ecommerce from "../../Assets/Commerce.jpg";
 
 function Projects() {
   return (
@@ -16,7 +16,8 @@ function Projects() {
       <Particle />
       <Container>
         <h1 className="project-heading">
-          Clients' Completed <strong className="purple">Work</strong>
+          A Selection of My Completed{" "}
+          <strong className="purple">Projects</strong>
         </h1>
         <p style={{ color: "white" }}>
           Here are a few projects I've worked on from design to end product.
@@ -75,12 +76,12 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={myImg} // Placeholder image or a coming soon image
+              imgPath={ecommerce} // Placeholder image or a coming soon image
               isBlog={false}
-              title="More Projects Coming Soon"
-              description="Stay tuned for more exciting projects! I'm constantly working on new and innovative solutions."
-              demoLink="https://jdtheefirst.vercel.app/"
-              ghLink="https://github.com/jdtheefirst"
+              title="E-Commerce"
+              description="Users can browse products, add them to their cart, and complete purchases securely. The application features user authentication, product management, and order processing. Leveraging GraphQL for efficient data fetching, it connects to the Saleor cloud for dynamic content and scalability."
+              demoLink="https://e-commerce-swart-mu-68.vercel.app/"
+              ghLink="https://github.com/jdtheefirst/e-commerce"
             />
           </Col>
         </Row>
