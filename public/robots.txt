@@ -1,5 +1,7 @@
-# https://www.robotstxt.org/robotstxt.html
-Disallow:
+# Robots.txt reference: https://www.robotstxt.org/robotstxt.html
+
 User-agent: *
 Allow: /
+
 Sitemap: https://jdtheefirst.vercel.app/sitemap.xml
+
