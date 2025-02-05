@@ -7,29 +7,34 @@ function AboutCard() {
     <Card className="quote-card-view">
       <Card.Body>
         <p style={{ textAlign: "justify" }} className="home-about-body">
-          Hi Everyone, I am <span className="purple"> Joseph Ngatia</span> from
+          Hi Everyone, I am <span className="purple">Joseph Ngatia</span> from
           <span className="purple"> Nairobi, Kenya.</span>
-          <br />
-          I am currently freelancing as a software developer.
-          <br />
-          <br />
-          I have gained hands-on experience in the MERN stack and have
-          successfully built applications for small and medium-sized businesses.
-          <br />
-          <br />
-          I'm passionate about leveraging my skills to solve real-world problems
-          and am always looking for new challenges. I'm open to part-time
-          opportunities that allow me to contribute and grow alongside a dynamic
-          team.
+          <br />I am a <span className="purple">
+            Full-Stack Developer
+          </span> and <span className="purple">AI Systems Engineer</span>{" "}
+          specializing in <span className="purple">MERN Stack</span>,{" "}
+          <span className="purple">React Native</span>, and{" "}
+          <span className="purple">TypeScript</span>.
           <br />
           <br />
-          Additionally, I am the Founder and CEO at{" "}
+          With hands-on experience in software development, I have successfully
+          built applications for small and medium-sized businesses while
+          integrating AI-driven solutions. My expertise includes:
+          <br />
+          <br />
+          🔹 LLM-Based AI System Development (OpenAI, Chatbots, Voice AI)
+          <br />
+          🔹 Advanced Algorithms & Data Structures
+          <br />
+          🔹 Web & Mobile App Development with AI Enhancements
+          <br />
+          <br />
+          Beyond development, I am also the Founder and lead developer at{" "}
           <span class="purple" style={{ color: "red" }}>
-            {" "}
             IntimatesPlus
           </span>
-          , an innovative platform designed to help people move beyond fleeting
-          comforts and find lasting connections. You can learn more about it{" "}
+          , a platform designed to bridge the gap between fleeting connections
+          and meaningful relationships. Learn more{" "}
           <a
             href="https://x.com/jdtheefirst/status/1798216326374408584"
             target="_blank"
@@ -48,10 +53,10 @@ function AboutCard() {
             <ImPointRight /> Playing Games
           </li>
           <li className="about-activity">
-            <ImPointRight /> Electronics and Software Integrations
+            <ImPointRight /> AI & Electronics Integrations
           </li>
           <li className="about-activity">
-            <ImPointRight /> Travelling
+            <ImPointRight /> Traveling
           </li>
         </ul>
         <p style={{ color: "rgb(155 126 172)" }}>

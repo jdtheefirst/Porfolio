@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/jdtheefirst2.png";
 import Tilt from "react-parallax-tilt";
 import { AiFillGithub, AiFillInstagram } from "react-icons/ai";
-import { FaWhatsapp, FaXTwitter } from "react-icons/fa6";
+import { FaUpwork, FaWhatsapp, FaXTwitter } from "react-icons/fa6";
 import { SiLichess } from "react-icons/si";
 import { FaLinkedinIn } from "react-icons/fa";
 
@@ -32,18 +32,19 @@ function Home2() {
               algorithm at a time. 💻
               <br />
               <br />
-              My linguistic prowess extends to the classics:
+              My linguistic prowess being:
               <i>
-                <b className="purple"> C++, JavaScript, and Go. </b>
+                <b className="purple"> JavaScript </b>
               </i>
-              These languages are not just tools; they're the building blocks of
+              <br />
+              This language is not just a tool; it is the building block of
               digital dreams, the architects of tomorrow's innovations. ✨
               <br />
               <br />
               But my interests don't stop there. I'm drawn to the infinite
               possibilities of
               <i>
-                <b className="purple"> Web Technologies and Products</b>
+                <b className="purple"> Mobile & Web Technologies</b>
               </i>
               , sculpting digital landscapes that captivate and inspire. And
               when I'm not immersed in the virtual world, you'll find me
@@ -51,13 +52,13 @@ function Home2() {
               <i>
                 <b className="purple"> Electronics</b>
               </i>
-              , where circuits come alive with the pulse of innovation. ⚡
+              , where circuits come alive with every pulse of innovation. ⚡
               <br />
               <br />
               Fueled by passion and caffeine, I embark on the quest to bring
               ideas to life. With
-              <b className="purple"> Node.js</b> as my trusty steed, I traverse
-              the digital frontier, wielding the powers of
+              <b className="purple"> NodeJS and Typescript</b> as my trusty
+              steed, I traverse the digital frontier, wielding the powers of
               <i>
                 <b className="purple">
                   {" "}
@@ -66,7 +67,7 @@ function Home2() {
               </i>
               such as
               <i>
-                <b className="purple"> React.js</b>
+                <b className="purple"> ReactJS, React Native and NextJS</b>
               </i>
               . Together, we craft experiences that defy expectations, breathing
               life into pixels and turning dreams into reality. 🚀
@@ -87,10 +88,21 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
+                  href="https://upwork.com/freelancers/jdtheefirst"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour home-social-icons"
+                >
+                  <FaUpwork />
+                </a>
+              </li>
+
+              <li className="social-icons">
+                <a
                   href="https://github.com/jdtheefirst"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                  className="icon-colour home-social-icons"
                 >
                   <AiFillGithub />
                 </a>
@@ -100,7 +112,7 @@ function Home2() {
                   href="https://x.com/jdtheefirst"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                  className="icon-colour home-social-icons"
                 >
                   <FaXTwitter />
                 </a>
@@ -110,7 +122,7 @@ function Home2() {
                   href="https://www.linkedin.com/in/joseph-ngatia-99b632232/"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                  className="icon-colour home-social-icons"
                 >
                   <FaLinkedinIn />
                 </a>
@@ -130,7 +142,7 @@ function Home2() {
                   href="https://wa.me/254113062599"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                  className="icon-colour home-social-icons"
                 >
                   <FaWhatsapp />
                 </a>
@@ -140,7 +152,7 @@ function Home2() {
                   href="https://lichess.org/@/jdtheefirst"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                  className="icon-colour home-social-icons"
                 >
                   <SiLichess />
                 </a>

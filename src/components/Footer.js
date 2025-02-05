@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { AiFillGithub, AiFillInstagram } from "react-icons/ai";
-import { FaXTwitter } from "react-icons/fa6";
+import { FaXTwitter, FaUpwork } from "react-icons/fa6";
 import { FaLinkedinIn } from "react-icons/fa";
 import { SiLichess } from "react-icons/si";
 
@@ -19,6 +19,15 @@ function Footer() {
         </Col>
         <Col md="4" className="footer-body">
           <ul className="footer-icons">
+            <li className="social-icons">
+              <a
+                href="https://upwork.com/freelancers/jdtheefirst"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <FaUpwork />
+              </a>
+            </li>
             <li className="social-icons">
               <a
                 href="https://github.com/jdtheefirst"
