@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/jdtheefirst2.png";
+import myImg from "../../Assets/jdtheefirst.png";
 import Tilt from "react-parallax-tilt";
 import { AiFillGithub, AiFillInstagram } from "react-icons/ai";
 import { FaUpwork, FaWhatsapp, FaXTwitter } from "react-icons/fa6";
@@ -14,22 +14,18 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="purple"> INTRODUCE </span> MYSELF
+              HOW <span className="purple"> CODING </span> STARTED
             </h1>
             <p className="home-about-body">
-              Ah, the mesmerizing world of coding! 🌟
-              <br />
-              <br />
               My journey began with a goal to reach and impact as many people as
-              possible. I started by selling products online as an affiliate
-              using marketplaces like{" "}
-              <b className="purple"> ClickBank, Amazon</b>, and{" "}
-              <b className="purple">Alibaba</b>, creating landing pages with
+              possible.
+              <br />
+              <br />I started by selling products online as an affiliate using
+              marketplaces like <b className="purple"> ClickBank, Amazon</b>,
+              and <b className="purple">Alibaba</b>, creating landing pages with
               builders like <b className="purple"> WordPress </b> and
               advertising on social platforms and search engines. The
-              limitations of these builders led me to coding. I uncover new
-              possibilities, pushing the boundaries of what's possible, one
-              algorithm at a time. 💻
+              limitations of these builders led me to coding.
               <br />
               <br />
               My linguistic prowess being:

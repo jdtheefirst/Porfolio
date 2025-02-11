@@ -16,8 +16,7 @@ function Projects() {
       <Particle />
       <Container>
         <h1 className="project-heading">
-          A Selection of My Completed{" "}
-          <strong className="purple">Projects</strong>
+          A Selection of My <strong className="purple">Projects</strong>
         </h1>
         <p style={{ color: "white" }}>
           Here are a few projects I've worked on from design to end product.

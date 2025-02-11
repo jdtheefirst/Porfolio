@@ -9,12 +9,13 @@ function AboutCard() {
         <p style={{ textAlign: "justify" }} className="home-about-body">
           Hi Everyone, I am <span className="purple">Joseph Ngatia</span> from
           <span className="purple"> Nairobi, Kenya.</span>
-          <br />I am a <span className="purple">
-            Full-Stack Developer
-          </span> and <span className="purple">AI Systems Engineer</span>{" "}
-          specializing in <span className="purple">MERN Stack</span>,{" "}
-          <span className="purple">React Native</span>, and{" "}
-          <span className="purple">TypeScript</span>.
+          <br />
+          <br />I am a <span className="purple"> Full-Stack, </span>
+          <span className="purple"> Electronics Integrations </span>and
+          <span className="purple"> AI Systems </span> Engineer specializing in
+          <span className="purple"> MERN Stack, </span>
+          <span className="purple"> React Native </span> and
+          <span className="purple"> TypeScript </span>.
           <br />
           <br />
           With hands-on experience in software development, I have successfully
@@ -50,10 +51,10 @@ function AboutCard() {
 
         <ul>
           <li className="about-activity">
-            <ImPointRight /> Playing Games
+            <ImPointRight /> Playing Chess
           </li>
           <li className="about-activity">
-            <ImPointRight /> AI & Electronics Integrations
+            <ImPointRight /> Podcasting
           </li>
           <li className="about-activity">
             <ImPointRight /> Traveling

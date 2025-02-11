@@ -7,25 +7,25 @@ const timelineData = [
     year: "2024",
     title: "Full Stack Developer at World Samma Federation",
     description:
-      "Spearheaded the development of scalable MERN stack applications, seamlessly integrating cutting-edge APIs, and driving significant improvements in business operations and performance.",
+      "Spearheaded the development of scalable a full-stack application, seamlessly integrating cutting-edge APIs, and driving significant improvements in business operations and performance.",
   },
   {
     year: "2023",
-    title: "Founder & Lead Developer, IntimatesPlus",
+    title: "Founder & Lead Developer",
     description:
       "Launched IntimatesPlus, a pioneering dating platform featuring real-time chat, video, and voice calls, transforming the online dating experience with innovative, user-focused features.",
   },
   {
-    year: "Sep 2020",
+    year: "Sep 2021",
     title: "Full Stack Developer Training, FreeCodeCamp",
     description:
       "Mastered web design, JavaScript algorithms, and full stack development through an intensive curriculum, refining my front-end and back-end skills.",
   },
   {
     year: "2020",
-    title: "University Enrollment, B.Tech in Computer & Electronics",
+    title: "University Enrollment",
     description:
-      "Embarked on an exciting journey at Mount Kenya University, pursuing a Bachelor's degree in Technology and Electronic Systems to deepen my knowledge in engineering.",
+      "Embarked on an exciting journey at Mount Kenya University, pursuing a Bachelor's degree in Technology in Computer and Electronic Systems.",
   },
   {
     year: "2019",
@@ -97,7 +97,7 @@ const DeveloperTimeline = () => {
 
   return (
     <Container className="timeline-container py-5">
-      <h2 className="text-heading">My Developer Journey</h2>
+      <h2 className="text-heading">My Engineering Journey</h2>
       {timelineData.map((item, index) => (
         <TimelineItem
           key={index}
