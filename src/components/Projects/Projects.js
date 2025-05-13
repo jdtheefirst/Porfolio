@@ -24,11 +24,33 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={"/creator-hd-cover.png"}
+              isBlog={false}
+              title="Creator-HQ"
+              description="Creator-HQ is your all-in-one personal site to sell, book, post, and grow — like Linktree, Shopify, and Patreon had a baby, but you own it."
+              demoLink="https://creator-hq-xv3h.vercel.app/"
+              ghLink="https://github.com/jdtheefirst/creator-hq"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={"/ordate-cover.png"}
+              isBlog={false}
+              title="Ordate"
+              description="Ordate is a mobile-first matchmaking platform that connects people through curated dates, with built-in payments, waitlists, and a smooth, wallet-based user experience — built for real-world connections, not just swipes."
+              demoLink="#"
+              ghLink="https://github.com/jdtheefirst/ordate"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath={chatify}
               isBlog={false}
               title="Dating Platform"
               description="An innovative app designed and developed to redefine the dynamics of modern relationships. Features include real-time chatting, push notifications, video and voice calls, matching algorithm and subscriptions"
-              demoLink="https://fuckmate.boo/"
+              demoLink="https://mern-chat-jd-gwaw.onrender.com/"
               ghLink="https://github.com/Admin-Apparels/IntimatesPlus"
             />
           </Col>
@@ -40,7 +62,7 @@ function Projects() {
               title="Sports Club"
               description="World Samma Federation: A complete full Stack organization's large-scale application, designed and developed with features like real-time chatting, push notifications, streaming, grading, and different roles."
               demoLink="https://worldsamma.org/"
-              ghLink="https://github.com/jdtheefirst/World-Samma-Fed"
+              ghLink="https://github.com/jdtheefirst/samma"
             />
           </Col>
           <Col md={4} className="project-card">
@@ -50,7 +72,7 @@ function Projects() {
               title="Chat Room"
               description="Chat Room or Workspace to share resources and hangout with friends build with React.js, Material-UI, and Firebase."
               demoLink="https://chat-room-ecru-five.vercel.app"
-              ghLink="https://github.com/jdtheefirst/Porfolio"
+              ghLink="https://github.com/jdtheefirst/Chat_Room"
             />
           </Col>
           <Col md={4} className="project-card">

@@ -4,14 +4,26 @@ import "../style.css"; // Custom CSS for further styling
 
 const timelineData = [
   {
+    year: "2025",
+    title: "Founder & Full Stack Developer, Creator-HQ",
+    description:
+      "Designed and built Creator-HQ — a no-code, all-in-one site builder for content creators. Enabled users to manage stores, courses, bookings, newsletters, and VIP content under their own domain with no recurring platform fees. Integrated Supabase, Stripe, and Next.js for scalable multi-tenant deployment.",
+  },
+  {
+    year: "2025",
+    title: "Technical Architect, Ordate",
+    description:
+      "Designed and implemented key systems for a modern dating app, including wallet integration, payment processing, waitlist logic, and a responsive mobile-first UI using Next.js, Firebase, and PostgreSQL.",
+  },
+  {
     year: "2024",
     title: "Full Stack Developer at World Samma Federation",
     description:
-      "Spearheaded the development of scalable a full-stack application, seamlessly integrating cutting-edge APIs, and driving significant improvements in business operations and performance.",
+      "Spearheaded the development of a scalable full-stack application, integrating dynamic CMS features and advanced user analytics to boost organizational operations and online engagement.",
   },
   {
     year: "2023",
-    title: "Founder & Lead Developer",
+    title: "Founder & Lead Developer, IntimatesPlus",
     description:
       "Launched IntimatesPlus, a pioneering dating platform featuring real-time chat, video, and voice calls, transforming the online dating experience with innovative, user-focused features.",
   },
@@ -19,19 +31,19 @@ const timelineData = [
     year: "Sep 2021",
     title: "Full Stack Developer Training, FreeCodeCamp",
     description:
-      "Mastered web design, JavaScript algorithms, and full stack development through an intensive curriculum, refining my front-end and back-end skills.",
+      "Mastered web design, JavaScript algorithms, and full stack development through an intensive curriculum, refining both front-end and back-end capabilities.",
   },
   {
     year: "2020",
     title: "University Enrollment",
     description:
-      "Embarked on an exciting journey at Mount Kenya University, pursuing a Bachelor's degree in Technology in Computer and Electronic Systems.",
+      "Began my Bachelor’s journey at Mount Kenya University, majoring in Technology in Computer and Electronic Systems — blending software and hardware foundations.",
   },
   {
     year: "2019",
     title: "High School Graduate with Engineering Ambitions",
     description:
-      "Graduated with a clear vision to pursue engineering, igniting a passion for technology that would shape my future in higher education and beyond.",
+      "Graduated with a vision to build things that matter — from circuit boards to code. This passion fueled my move into the tech world.",
   },
 ];
 
